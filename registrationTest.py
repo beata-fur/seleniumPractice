@@ -38,13 +38,7 @@ class vintedRegistration(unittest.TestCase):
 
     def testWrongName(self):
         driver = self.driver
-        #1. Zaakceptuj zgodę na cookies
-        # acceptation_btn = WebDriverWait(driver, 30)\
-        # .until(EC.presence_of_element_located((By.XPATH, 'button[path="[0,1,2]"]')))
-        # sleep(20)
-        # acceptation_btn = driver.find_element_by_xpath('button[path="[0,1,2]"]')
-        # acceptation_btn.click()
-
+        
         frame = WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, '//iframe[contains(@id, "sp_message_iframe_")]')))
         driver.switch_to.frame(frame)
         # print(driver.page_source)
