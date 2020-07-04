@@ -4,10 +4,8 @@ Selenium Practice
 Development
 ==============
 
-1. Setup the virtualenv or use the existing:
-
-   - Prepare the coding environment with python3
-
+1. Prepare the coding environment with python3:
+   
 
        $ python3 -m venv .venv
        $ source .venv/bin/activate
@@ -27,7 +25,7 @@ How to start a test
 Go to project directory
 
 
-      python3 email_test.py
-      python3 password_test.py
-      python3 registration_test.py
+       python3 email_test.py
+       python3 password_test.py
+       python3 registration_test.py
 
